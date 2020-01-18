@@ -8,13 +8,15 @@ import { commands, runChildProcess } from './lib/index.mjs'
 const cmdName = path.basename(process.argv[1])
 
 if (!commands[cmdName]) {
-  console.log(`
+  console.log(
+    `
 \u001b[31mE_COMMAND_NOT_FOUND\u001b[39m
 
 ${cmdName}
 
 available commands:
-`.trim())
+`.trim(),
+  )
 
   let cName = ''
   let longest = {
