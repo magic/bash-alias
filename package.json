@@ -6,7 +6,6 @@
   "license": "AGPL-3.0",
   "homepage": "https://magic.github.io/bash-alias",
   "main": "src/index.mjs",
-  "private": true,
   "bin": {
     "l": "src/bin.mjs",
     "la": "src/bin.mjs",
