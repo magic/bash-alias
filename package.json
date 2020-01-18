@@ -66,6 +66,12 @@
   "files": [
     "src"
   ],
+  "keywords": [
+    "magic",
+    "bash",
+    "alias",
+    "shortcuts"
+  ],
   "contributors": [
     {
       "name": "jascha ehrenreich",
