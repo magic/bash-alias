@@ -21,9 +21,9 @@ strings in ${} are expected cli arguments
 
 ### ls
 ```bash
-ll -> ls -alF
-la -> ls -A
-l  -> ls -CF
+ll -> ls -alF --color
+la -> ls -A --color
+l  -> ls -CF --color
 ```
 
 ### git
@@ -46,12 +46,12 @@ gs   -> git -c color.status=always status
 
 ### git shortcuts
 ```bash
-gcdocs    -> git commit -m 'update docs' ./docs"
-gcdeps    -> git commit -m 'update deps' ./package.json ./package-lock.json"
-gcdevdeps -> git commit -m 'update devdeps' ./package.json ./package-lock.json"
+gcdocs    -> git commit -m 'docs: update' ./docs"
+gcdeps    -> git commit -m 'deps: update' ./package.json ./package-lock.json"
+gcdevdeps -> git commit -m 'devdeps: update ' ./package.json ./package-lock.json"
 gclog     -> git commit -m 'readme: update changelog' ./README.md"
-gcread    -> git commit -m 'update readme' ./README.md"
-gcbump    -> git commit -m 'bump version' ./package.json ./package-lock.json"
+gcread    -> git commit -m 'readme: update' ./README.md"
+gcbump    -> git commit -m 'version: bump' ./package.json ./package-lock.json"
 ```
 
 ### node
