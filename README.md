@@ -4,10 +4,10 @@ installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
 
 **POLLUTES THE NAMESPACE OF YOUR BASH WITH ONE AND TWO LETTER COMMANDS.**
 
-*the rest of the linux ecosystem seems to be sane, though, so there are not too many clashes.*
+*fortunately, the rest of the linux ecosystem seems to be smart enough not to do that.*
 
 ## known name clashes:
-* gs = [ghostscript](https://en.wikipedia.org/wiki/Ghostscript)
+* gs = [ghostscript](https://en.wikipedia.org/wiki/Ghostscript).
 * ll, la, l: exist on some operating systems. should be no change in behaviour though.
 
 ## installation
@@ -96,5 +96,9 @@ first release
 #### 0.0.2
 add colors to directory listings.
 
-#### 0.0.3 - unreleased
+#### 0.0.3
+* update git commit messages
+* fix docs
+
+#### 0.0.4 - unreleased
 ...
