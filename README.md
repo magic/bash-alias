@@ -22,6 +22,8 @@ gca -> git commit --amend
 gd  -> git -c color.ui=always diff
 gl  -> git -c color.ui=always log
 gp  -> git push
+gr  -> git remove -v
+gra -> git remote add
 gs  -> git -c color.status=always status
 ```
 
