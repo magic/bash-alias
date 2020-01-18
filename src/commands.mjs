@@ -19,11 +19,11 @@ export const gra = 'git remote add'
 export const grr = 'git remote remove'
 export const gs = 'git -c color.status=always status'
 
-// git shortcust
-export const gcbump = "git commit -m 'bump version' ./package.json ./package-lock.json"
-export const gcdeps = "git commit -m 'update deps' ./package.json ./package-lock.json"
-export const gcdevdeps = "git commit -m 'update devdeps' ./package.json ./package-lock.json"
-export const gcdocs = "git commit -m 'update docs' ./docs"
+// git shortcuts
+export const gcbump = "git commit -m 'version: bump' ./package.json ./package-lock.json"
+export const gcdeps = "git commit -m 'deps: update' ./package.json ./package-lock.json"
+export const gcdevdeps = "git commit -m 'devdeps: update' ./package.json ./package-lock.json"
+export const gcdocs = "git commit -m 'docs: update' ./docs"
 export const gclog = "git commit -m 'readme: update changelog' ./README.md"
 export const gcread = "git commit -m 'readme: update' ./README.md"
 

@@ -33,11 +33,11 @@ const expectedCommands = {
   grr: 'git remote remove',
   gs: 'git -c color.status=always status',
 
-  // git shortcust
-  gcbump: "git commit -m 'bump version' ./package.json ./package-lock.json",
-  gcdeps: "git commit -m 'update deps' ./package.json ./package-lock.json",
-  gcdevdeps: "git commit -m 'update devdeps' ./package.json ./package-lock.json",
-  gcdocs: "git commit -m 'update docs' ./docs",
+  // git shortcuts
+  gcbump: "git commit -m 'version: bump' ./package.json ./package-lock.json",
+  gcdeps: "git commit -m 'deps: update' ./package.json ./package-lock.json",
+  gcdevdeps: "git commit -m 'devdeps: update' ./package.json ./package-lock.json",
+  gcdocs: "git commit -m 'docs: update' ./docs",
   gclog: "git commit -m 'readme: update changelog' ./README.md",
   gcread: "git commit -m 'readme: update' ./README.md",
 
