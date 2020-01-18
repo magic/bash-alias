@@ -1,0 +1,71 @@
+{
+  "name": "@magic/bash-alias",
+  "version": "0.0.2",
+  "author": "Wizards & Witches",
+  "description": "various bash aliases for node, git and @magic.",
+  "license": "AGPL-3.0",
+  "homepage": "https://magic.github.io/bash-alias",
+  "main": "src/index.mjs",
+  "private": true,
+  "bin": {
+    "ga": "src/bin.mjs",
+    "gaa": "src/bin.mjs",
+    "gb": "src/bin.mjs",
+    "gbb": "src/bin.mjs",
+    "gc": "src/bin.mjs",
+    "gca": "src/bin.mjs",
+    "gd": "src/bin.mjs",
+    "gl": "src/bin.mjs",
+    "gp": "src/bin.mjs",
+    "gs": "src/bin.mjs",
+    "nb": "src/bin.mjs",
+    "nd": "src/bin.mjs",
+    "nf": "src/bin.mjs",
+    "ni": "src/bin.mjs",
+    "np": "src/bin.mjs",
+    "ns": "src/bin.mjs",
+    "nt": "src/bin.mjs",
+    "nu": "src/bin.mjs",
+    "m": "src/bin.mjs",
+    "mb": "src/bin.mjs",
+    "md": "src/bin.mjs",
+    "mp": "src/bin.mjs",
+    "ms": "src/bin.mjs"
+  },
+  "scripts": {
+    "start": "t -p",
+    "test": "t --exclude docs example config.js",
+    "format": "f -w --exclude docs",
+    "format:check": "f",
+    "calls": "calls",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve",
+    "clean": "magic clean",
+    "serve": "magic serve",
+    "dev": "magic dev"
+  },
+  "engine": {
+    "node": ">=13.5.0"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magic/bash-alias.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic/bash-alias/issues"
+  },
+  "devDependencies": {
+    "@magic/format": "0.0.7",
+    "@magic/test": "0.1.33"
+  },
+  "files": [
+    "src"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
