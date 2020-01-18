@@ -26,7 +26,7 @@ export const commands = {
   gcdevdeps: "git commit -m 'update devdeps' ./package.json ./package-lock.json",
   gcdocs: "git commit -m 'update docs' ./docs",
   gclog: "git commit -m 'readme: update changelog' ./README.md",
-  gcread: "git commit -m 'update readme' ./README.md",
+  gcread: "git commit -m 'readme: update' ./README.md",
 
   // node
   nb: 'npm run build',
