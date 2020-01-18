@@ -4,6 +4,12 @@ installs useful git, node and [@magic](https://magic.github.io) aliases.
 
 **POLLUTES THE NAMESPACE OF YOUR BASH WITH ONE AND TWO LETTER COMMANDS.**
 
+*the rest of the linux ecosystem seems to be sane, though, so there are not too many clashes.*
+
+## known name clashes:
+* gs = [ghostscript](https://en.wikipedia.org/wiki/Ghostscript)
+* ll, la, l: exist on some operating systems. should be no change in behaviour though.
+
 ## installation
 ```bash
 npm i -g @magic/bash-aliases
@@ -84,8 +90,11 @@ cwr -> cargo watch -x run
 
 ### changelog
 
-#### 0.0.1 - unreleased
+#### 0.0.1
 first release
 
-#### 0.0.2 - unreleased
+#### 0.0.2
+add colors to directory listings.
+
+#### 0.0.3 - unreleased
 ...
