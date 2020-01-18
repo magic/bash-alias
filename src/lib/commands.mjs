@@ -1,0 +1,28 @@
+export const commands = {
+  ga: 'git add',
+  gaa: 'git add --all',
+  gb: 'git branch',
+  gbb: 'git checkout -b',
+  gc: 'git commit -m',
+  gca: 'git commit --amend',
+  gd: 'git -c color.ui=always diff',
+  gl: 'git -c color.ui=always log',
+  gp: 'git push',
+  gs: 'git -c color.status=always status',
+
+  nb: 'npm run build',
+  nd: 'npm run dev',
+  nf: 'npm run format',
+  ni: 'npm install',
+  np: 'npm run prod',
+  ns: 'npm start',
+  nt: 'npm test',
+  nu: 'npm update',
+
+  m: 'magic dev',
+  mb: 'magic build',
+  mc: 'magic clean',
+  md: 'magic dev',
+  mp: 'magic prod',
+  ms: 'magic serve',
+}
