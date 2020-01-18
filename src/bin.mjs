@@ -17,6 +17,10 @@ let [cmd, ...argv] = commands[cmdName].split(' ')
 
 let [_1, _2, ...pArgv] = process.argv
 
+if (cmdName === 'gc') {
+  pArgv[0] = `\'${pArgv[0]}\'`
+}
+
 argv = [...argv, ...pArgv]
 
 runChildProcess(cmd, argv)
