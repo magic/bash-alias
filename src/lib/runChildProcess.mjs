@@ -1,6 +1,6 @@
 import child_process from 'child_process'
 
-const options = {
+export const options = {
   windowsHide: true,
   stdio: 'inherit',
   shell: '/bin/bash',
