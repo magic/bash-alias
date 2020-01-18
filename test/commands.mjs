@@ -13,9 +13,9 @@ const bin = pkg.bin
 
 const expectedCommands = {
   // ls
-  ll: 'ls -alF',
-  la: 'ls -A',
-  l: 'ls -CF',
+  ll: 'ls -alF --color',
+  la: 'ls -A --color',
+  l: 'ls -CF --color',
 
   // git
   ga: 'git add',
