@@ -3,7 +3,7 @@ import path from 'path'
 
 import { is, log } from '@magic/test'
 
-import { commands } from '../src/lib/index.mjs'
+import * as commands from '../src/commands.mjs'
 
 const cmdEntries = Object.entries(commands)
 

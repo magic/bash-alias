@@ -1,0 +1,56 @@
+// ls
+export const ll = 'ls -alF --color'
+export const la = 'ls -A --color'
+export const l = 'ls -CF --color'
+
+// git
+export const ga = 'git add'
+export const gaa = 'git add --all'
+export const gb = 'git branch'
+export const gbb = 'git checkout -b'
+export const gc = 'git commit -m'
+export const gca = 'git commit --amend'
+export const gd = 'git -c color.ui=always diff'
+export const gl = 'git -c color.ui=always log'
+export const gp = 'git push'
+export const gps = 'git push --set-upstream'
+export const gr = 'git remote -v'
+export const gra = 'git remote add'
+export const grr = 'git remote remove'
+export const gs = 'git -c color.status=always status'
+
+// git shortcust
+export const gcbump = "git commit -m 'bump version' ./package.json ./package-lock.json"
+export const gcdeps = "git commit -m 'update deps' ./package.json ./package-lock.json"
+export const gcdevdeps = "git commit -m 'update devdeps' ./package.json ./package-lock.json"
+export const gcdocs = "git commit -m 'update docs' ./docs"
+export const gclog = "git commit -m 'readme: update changelog' ./README.md"
+export const gcread = "git commit -m 'readme: update' ./README.md"
+
+// node
+export const nb = 'npm run build'
+export const nd = 'npm run dev'
+export const nf = 'npm run format'
+export const ni = 'npm install'
+export const np = 'npm run prod'
+export const ns = 'npm start'
+export const nt = 'npm test'
+export const nu = 'npm update'
+
+// @magic
+export const m = 'magic dev'
+export const mb = 'magic build'
+export const mc = 'magic clean'
+export const md = 'magic dev'
+export const mp = 'magic prod'
+export const ms = 'magic serve'
+
+// rust
+export const cb = 'cargo build'
+export const cc = 'cargo check'
+export const cf = 'cargo fmt -v'
+export const ci = 'cargo install'
+export const cr = 'cargo run'
+export const ct = 'cargo test'
+export const cw = 'cargo watch'
+export const cwr = 'cargo watch -x run'

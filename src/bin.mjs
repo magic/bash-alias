@@ -3,7 +3,9 @@
 
 import path from 'path'
 
-import { commands, errorOnMissingCommand, runChildProcess } from './lib/index.mjs'
+import * as commands from './commands.mjs'
+
+import { errorOnMissingCommand, runChildProcess } from './lib/index.mjs'
 
 const cmdName = path.basename(process.argv[1])
 
