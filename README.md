@@ -24,6 +24,7 @@ gca  -> git commit --amend
 gd   -> git -c color.ui=always diff
 gl   -> git -c color.ui=always log
 gp   -> git push
+gps  -> git push --set-upstream ${remote} ${branch}
 gr   -> git remote -v
 gra  -> git remote add ${name} ${url}
 grr  -> git remote remove ${name},

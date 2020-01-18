@@ -13,6 +13,7 @@ const expectedCommands = {
   gd: 'git -c color.ui=always diff',
   gl: 'git -c color.ui=always log',
   gp: 'git push',
+  gps: 'git push --set-upstream',
   gr: 'git remote -v',
   gra: 'git remote add',
   grr: 'git remote remove',
