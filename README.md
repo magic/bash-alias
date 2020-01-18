@@ -1,6 +1,6 @@
 # @magic/git-alias
 
-installs useful git, node and [@magic](https://magic.github.io) aliases.
+installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
 
 **POLLUTES THE NAMESPACE OF YOUR BASH WITH ONE AND TWO LETTER COMMANDS.**
 
