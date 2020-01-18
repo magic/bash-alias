@@ -11,8 +11,6 @@ if (!commands[cmdName]) {
   errorOnMissingCommand({ name: cmdName, commands })
 }
 
-
-
 let [cmd, ...argv] = commands[cmdName].split(' ')
 
 let [_1, _2, ...pArgv] = process.argv
