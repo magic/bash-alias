@@ -31,7 +31,7 @@ grr  -> git remote remove ${name},
 gs   -> git -c color.status=always status
 ```
 
-### Node
+### node
 ```bash
 nb  -> npm run build
 nd  -> npm run dev
