@@ -19,6 +19,7 @@
     "gp": "src/bin.mjs",
     "gr": "src/bin.mjs",
     "gra": "src/bin.mjs",
+    "grr": "src/bin.mjs",
     "gs": "src/bin.mjs",
     "nb": "src/bin.mjs",
     "nd": "src/bin.mjs",

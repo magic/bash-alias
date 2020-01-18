@@ -11,25 +11,28 @@ npm i -g @magic/bash-aliases
 
 ## aliases
 
+strings in ${} are expected cli arguments
+
 ### git
 ```bash
-ga  -> git add
-gaa -> git add --all
-gb  -> git branch
-gbb -> git checkout -b
-gc  -> git commit -m
-gca -> git commit --amend
-gd  -> git -c color.ui=always diff
-gl  -> git -c color.ui=always log
-gp  -> git push
-gr  -> git remove -v
-gra -> git remote add
-gs  -> git -c color.status=always status
+ga   -> git add ${...files}
+gaa  -> git add --all
+gb   -> git branch
+gbb  -> git checkout -b ${name}
+gc   -> git commit -m "message string" ${...files}
+gca  -> git commit --amend
+gd   -> git -c color.ui=always diff
+gl   -> git -c color.ui=always log
+gp   -> git push
+gr   -> git remote -v
+gra  -> git remote add ${name} ${url}
+grr  -> git remote remove ${name},
+gs   -> git -c color.status=always status
 ```
 
 ### Node
 ```bash
-nb -> npm run build
+nb  -> npm run build
 nd  -> npm run dev
 nf  -> npm run format
 ni  -> npm install
@@ -41,12 +44,12 @@ nu  -> npm update
 
 ### @magic
 ```bash
-m  -> magic dev
-mb -> magic build
-mc -> magic clean
-md -> magic dev
-mp -> magic prod
-ms -> magic serve
+m   -> magic dev
+mb  -> magic build
+mc  -> magic clean
+md  -> magic dev
+mp  -> magic prod
+ms  -> magic serve
 ```
 
 ### changelog
