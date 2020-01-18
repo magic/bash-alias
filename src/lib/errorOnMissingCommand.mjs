@@ -5,8 +5,7 @@ export const errorOnMissingCommand = ({ name, commands }) => {
 
 ${name}
 
-available commands:
-`.trim(),
+available commands:`.trim(),
   )
 
   let cName = ''
@@ -14,6 +13,8 @@ available commands:
     g: 0,
     m: 0,
     n: 0,
+    r: 0,
+    l: 0,
   }
 
   const cmdInfo = Object.entries(commands)
@@ -36,6 +37,10 @@ available commands:
           n = 'node'
         } else if (cName === 'm') {
           n = '@magic'
+        } else if (cName === 'l') {
+          n = 'directory listings'
+        } else if (cName === 'r') {
+          n = 'rust'
         }
 
         header = `\n${n}\n`
@@ -48,6 +53,7 @@ available commands:
       return `${header}${cmd} -> \u001b[94m${bash}\u001b[39m`
     })
     .join('\n')
+    .trim()
 
   console.log(cmdInfo)
   process.exit(1)
