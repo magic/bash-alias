@@ -8,9 +8,11 @@ export const state = {
       to: '/#aliases',
       text: 'aliases',
       items: [
+        { to: '-dir', text: 'directory listings' },
         { to: '-git', text: 'git' },
         { to: '-node', text: 'node' },
         { to: '-magic', text: '@magic' },
+        { to: '-rust', text: 'rust' },
       ],
     },
     { to: '/#source', text: 'source' },

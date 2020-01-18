@@ -13,6 +13,13 @@ npm i -g @magic/bash-aliases
 
 strings in ${} are expected cli arguments
 
+### ls
+```bash
+ll -> ls -alF
+la -> ls -A
+l  -> ls -CF
+```
+
 ### git
 ```bash
 ga   -> git add ${...files}
@@ -29,6 +36,16 @@ gr   -> git remote -v
 gra  -> git remote add ${name} ${url}
 grr  -> git remote remove ${name},
 gs   -> git -c color.status=always status
+```
+
+### git shortcuts
+```bash
+gcdocs    -> git commit -m 'update docs' ./docs"
+gcdeps    -> git commit -m 'update deps' ./package.json ./package-lock.json"
+gcdevdeps -> git commit -m 'update devdeps' ./package.json ./package-lock.json"
+gclog     -> git commit -m 'readme: update changelog' ./README.md"
+gcread    -> git commit -m 'update readme' ./README.md"
+gcbump    -> git commit -m 'bump version' ./package.json ./package-lock.json"
 ```
 
 ### node
@@ -51,6 +68,18 @@ mc  -> magic clean
 md  -> magic dev
 mp  -> magic prod
 ms  -> magic serve
+```
+
+### rust
+```bash
+cb  -> cargo build
+cc  -> cargo check
+cf  -> cargo fmt -v
+ci  -> cargo install
+cr  -> cargo run
+ct  -> cargo test
+cw  -> cargo watch
+cwr -> cargo watch -x run
 ```
 
 ### changelog

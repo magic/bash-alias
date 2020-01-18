@@ -8,11 +8,14 @@ export const View = state => [
   Pre('npm i -g @magic/bash-alias'),
 
   h3({ id: 'aliases' }, 'aliases'),
-
-  h4({ id: 'aliases-git' }, 'git'),
-
   p('strings in ${} are expected cli arguments'),
 
+  h4({ id: 'aliases-dir' }, 'directory listings'),
+  Pre('l  -> ls -CF'),
+  Pre('la -> ls -A'),
+  Pre('ll -> ls -alF'),
+
+  h4({ id: 'aliases-git' }, 'git'),
   Pre('ga   -> git add ${...files}'),
   Pre('gaa  -> git add --all'),
   Pre('gb   -> git branch'),
@@ -45,6 +48,8 @@ export const View = state => [
   Pre('md  -> magic dev'),
   Pre('mp  -> magic prod'),
   Pre('ms  -> magic serve'),
+
+  h4({ id: 'aliases-rust' }, 'rust'),
 
   h2({ id: 'source' }, 'source'),
   p([
