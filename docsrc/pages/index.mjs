@@ -2,7 +2,7 @@ export const View = state => [
   h1(state.title),
   p(state.description),
 
-  GitBadges('magic/bumper'),
+  GitBadges('magic/bash-alias'),
 
   h3({ id: 'install' }, 'install'),
   Pre('npm i -g @magic/bash-alias'),
