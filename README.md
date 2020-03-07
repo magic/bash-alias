@@ -4,7 +4,7 @@ installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
 
 **POLLUTES THE NAMESPACE OF YOUR BASH WITH ONE AND TWO LETTER COMMANDS.**
 
-*fortunately, the rest of the linux ecosystem seems to be smart enough not to do that.*
+*fortunately, the rest of the linux ecosystem seems to be smart enough not to do that too often.*
 
 ## known name clashes:
 * gs = [ghostscript](https://en.wikipedia.org/wiki/Ghostscript).
@@ -45,6 +45,7 @@ gs   -> git -c color.status=always status
 ```
 
 ### git shortcuts
+
 ```bash
 gcdocs    -> git commit -m 'docs: update' ./docs"
 gcdeps    -> git commit -m 'deps: update' ./package.json ./package-lock.json"
@@ -55,6 +56,7 @@ gcbump    -> git commit -m 'version: bump' ./package.json ./package-lock.json"
 ```
 
 ### node
+
 ```bash
 nb  -> npm run build
 nd  -> npm run dev
@@ -67,6 +69,7 @@ nu  -> npm update
 ```
 
 ### @magic
+
 ```bash
 m   -> magic dev
 mb  -> magic build
@@ -77,9 +80,10 @@ ms  -> magic serve
 ```
 
 ### rust
+
 ```bash
 cb  -> cargo build
-cc  -> cargo check
+cch -> cargo check
 cf  -> cargo fmt -v
 ci  -> cargo install
 cr  -> cargo run
@@ -100,5 +104,8 @@ add colors to directory listings.
 * update git commit messages
 * fix docs
 
-#### 0.0.4 - unreleased
+#### 0.0.4
+rename cc to cch to prevent name clash.
+
+#### 0.0.5 - unreleased
 ...
