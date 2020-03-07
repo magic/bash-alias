@@ -2,6 +2,12 @@
 
 ${description}
 
+installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
+
+**POLLUTES THE NAMESPACE OF YOUR BASH WITH ONE AND TWO LETTER COMMANDS.**
+
+*fortunately, the rest of the linux ecosystem seems to be smart enough not to do that too often.*
+
 <GitBadges>magic/bash-alias</GitBadges>
 
 ### install
@@ -10,30 +16,30 @@ ${description}
 
 ### aliases
 
-strings in '' are expected or optional cli arguments
+strings in [] are expected or optional cli arguments
 
 #### #aliases-dir directory listings
-`l  -> ls -CF '...FILE_GLOB'`
-`la -> ls -A '...FILE_GLOB'`
-`ll -> ls -alF '...FILE_GLOB'`
+`l  -> ls -CF [...FILE_GLOB]`
+`la -> ls -A [...FILE_GLOB]`
+`ll -> ls -alF [...FILE_GLOB]`
 
 #### #aliases- git
 
-`ga   -> git add '...FILE_GLOB'`
+`ga   -> git add [...FILE_GLOB]`
 `gaa  -> git add --all`
 `gb   -> git branch`
-`gbb  -> git checkout -b 'NAME'`
-`gc   -> git commit -m "message string" '...FILE_GLOB'`
+`gbb  -> git checkout -b [NAME]`
+`gc   -> git commit -m [message string] [...FILE_GLOB]`
 `gca  -> git commit --amend`
 `gd   -> git -c color.ui=always diff`
 `gl   -> git -c color.ui=always log`
 `gp   -> git push`
-`gps  -> git push --set-upstream 'REMOTE' 'BRANCH'`
+`gps  -> git push --set-upstream [REMOTE] [BRANCH]`
 `gr   -> git remote -v`
-`gra  -> git remote add 'NAME' 'URL'`
-`grr  -> git remote remove 'NAME',`
+`gra  -> git remote add [NAME] [URL]`
+`grr  -> git remote remove [NAME]`
 `gs   -> git -c color.status=always status`
-`gt   -> git tag -a 'VERSION' -m 'VERSION'`
+`gt   -> git tag -a [VERSION] -m [VERSION]`
 
 #### #aliases- node
 
