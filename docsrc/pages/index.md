@@ -13,26 +13,27 @@ ${description}
 strings in '' are expected or optional cli arguments
 
 #### #aliases-dir directory listings
-`l  -> ls -CF`
-`la -> ls -A`
-`ll -> ls -alF`
+`l  -> ls -CF '...FILE_GLOB'`
+`la -> ls -A '...FILE_GLOB'`
+`ll -> ls -alF '...FILE_GLOB'`
 
 #### #aliases- git
 
-`ga   -> git add '...files'`
+`ga   -> git add '...FILE_GLOB'`
 `gaa  -> git add --all`
 `gb   -> git branch`
-`gbb  -> git checkout -b 'name'`
-`gc   -> git commit -m "message string" '...files'`
+`gbb  -> git checkout -b 'NAME'`
+`gc   -> git commit -m "message string" '...FILE_GLOB'`
 `gca  -> git commit --amend`
 `gd   -> git -c color.ui=always diff`
 `gl   -> git -c color.ui=always log`
 `gp   -> git push`
-`gps  -> git push --set-upstream 'remote' 'branch'`
+`gps  -> git push --set-upstream 'REMOTE' 'BRANCH'`
 `gr   -> git remote -v`
-`gra  -> git remote add 'name' 'url'`
-`grr  -> git remote remove 'name',`
+`gra  -> git remote add 'NAME' 'URL'`
+`grr  -> git remote remove 'NAME',`
 `gs   -> git -c color.status=always status`
+`gt   -> git tag -a 'VERSION' -m 'VERSION'`
 
 #### #aliases- node
 
