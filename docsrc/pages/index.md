@@ -8,6 +8,11 @@ installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
 
 <GitBadges>magic/bash-alias</GitBadges>
 
+## known name clashes:
+
+* gs = [ghostscript](https://en.wikipedia.org/wiki/Ghostscript).
+* ll, la, l: exist on some operating systems. should be no change in behaviour though.
+
 ### install
 
 `npm i -g @magic/bash-alias`
