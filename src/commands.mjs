@@ -18,6 +18,7 @@ export const gr = 'git remote -v'
 export const gra = 'git remote add'
 export const grr = 'git remote remove'
 export const gs = 'git -c color.status=always status'
+export const gt = 'git tag'
 
 // git shortcuts
 export const gcbump = "git commit -m 'version: bump' ./package.json ./package-lock.json"

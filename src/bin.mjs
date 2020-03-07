@@ -21,6 +21,17 @@ if (cmdName === 'gc') {
   pArgv[0] = `\'${pArgv[0]}\'`
 }
 
+if (cmdName === 'gt') {
+  const pArg = pArgv.join(' ')
+
+  if (!pArg) {
+    console.log('gt expects at least one argument.')
+    process.exit(1)
+  }
+
+  pArgv = ['-a', `'${pArg}'`, '-m', `'${pArg}'`]
+}
+
 argv = [...argv, ...pArgv]
 
 runChildProcess(cmd, argv)
