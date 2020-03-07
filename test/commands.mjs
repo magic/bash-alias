@@ -32,6 +32,7 @@ const expectedCommands = {
   gra: 'git remote add',
   grr: 'git remote remove',
   gs: 'git -c color.status=always status',
+  gt: 'git tag',
 
   // git shortcuts
   gcbump: "git commit -m 'version: bump' ./package.json ./package-lock.json",
@@ -65,7 +66,7 @@ const expectedCommands = {
   cb: 'cargo build',
   cf: 'cargo fmt -v',
   ci: 'cargo install',
-  cc: 'cargo check',
+  cch: 'cargo check',
   cw: 'cargo watch',
   cwr: 'cargo watch -x run',
   ct: 'cargo test',
