@@ -2,6 +2,7 @@ export const state = {
   title: '@magic/bash-alias',
   description: 'various bash aliases for node, git and @magic.',
   logotext: '@magic/bumper',
+
   menu: [
     { to: '/#install', text: 'install' },
     {
