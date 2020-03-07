@@ -47,7 +47,7 @@ export const ms = 'magic serve'
 
 // rust
 export const cb = 'cargo build'
-export const cc = 'cargo check'
+export const cch = 'cargo check'
 export const cf = 'cargo fmt -v'
 export const ci = 'cargo install'
 export const cr = 'cargo run'
