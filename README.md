@@ -106,7 +106,8 @@ add colors to directory listings.
 * fix docs
 
 #### 0.0.4
-rename cc to cch to prevent name clash.
+* rename cc to cch to prevent name clash.
+* add gt => git tag -a $1 -m $1
 
 #### 0.0.5 - unreleased
 ...
