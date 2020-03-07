@@ -42,6 +42,7 @@ gr   -> git remote -v
 gra  -> git remote add ${name} ${url}
 grr  -> git remote remove ${name},
 gs   -> git -c color.status=always status
+gt   -> git tag -a '...ARGV' -m '...ARGV'
 ```
 
 ### git shortcuts
