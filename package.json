@@ -79,13 +79,13 @@
   },
   "devDependencies": {
     "@magic-modules/gdpr": "0.0.14",
-    "@magic-modules/git-badges": "0.0.7",
+    "@magic-modules/git-badges": "0.0.9",
     "@magic-modules/light-switch": "0.0.5",
     "@magic-modules/pre": "0.0.7",
     "@magic-themes/docs": "0.0.6",
-    "@magic/core": "0.0.58",
+    "@magic/core": "0.0.60",
     "@magic/format": "0.0.7",
-    "@magic/test": "0.1.37"
+    "@magic/test": "0.1.38"
   },
   "files": [
     "src"
