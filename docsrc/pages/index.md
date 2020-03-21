@@ -6,7 +6,7 @@ installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
 
 *fortunately, the rest of the linux ecosystem seems to be smart enough not to do that too often.*
 
-<GitBadges>magic/bash-alias</GitBadges>
+<GitBadges>@magic/bash-alias</GitBadges>
 
 ## known name clashes:
 
