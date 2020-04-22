@@ -85,7 +85,7 @@
     "@magic-themes/docs": "0.0.6",
     "@magic/core": "0.0.69",
     "@magic/format": "0.0.9",
-    "@magic/test": "0.1.42"
+    "@magic/test": "0.1.43"
   },
   "files": [
     "src"
