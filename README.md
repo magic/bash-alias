@@ -109,5 +109,8 @@ add colors to directory listings.
 * rename cc to cch to prevent name clash.
 * add gt => git tag -a $1 -m $1
 
-#### 0.0.5 - unreleased
+#### 0.0.5
+bump required node version to 14.2.0
+
+#### 0.0.6 - unreleased
 ...
