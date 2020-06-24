@@ -4,5 +4,5 @@ export default {
   WEB_ROOT: '/bash-alias/',
   URL: 'magic.github.io/bash-alias',
   THEME: 'docs',
-  HOIST: ['LightSwitch', 'Gdpr'],
+  HOIST: ['LightSwitch', 'NoSpy'],
 }
