@@ -83,7 +83,7 @@
     "@magic-modules/no-spy": "0.0.1",
     "@magic-modules/pre": "0.0.8",
     "@magic-themes/docs": "0.0.7",
-    "@magic/core": "0.0.83",
+    "@magic/core": "0.0.84",
     "@magic/format": "0.0.11",
     "@magic/test": "0.1.51"
   },
