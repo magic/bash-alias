@@ -1,6 +1,6 @@
 {
   "name": "@magic/bash-alias",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Wizards & Witches",
   "description": "various bash aliases for node, git, rust, and @magic. !pollutes bash namespace!",
   "license": "AGPL-3.0",
