@@ -116,5 +116,8 @@ bump required node version to 14.2.0
 * bump required node version to 14.15.4
 * update dependencies
 
-##### 0.0.7 - unreleased
+##### 0.0.7
+gcdocs: "git add docs" before comitting
+
+##### 0.0.8 - unreleased
 ...
