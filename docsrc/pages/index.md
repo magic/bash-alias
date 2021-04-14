@@ -79,6 +79,6 @@ strings in [] are expected or optional cli arguments
 ## source
 
 the source for this page is in the
-[example directory](https://github.com/magic/bash-alias/tree/master/example)
+[example directory](https://github.com/magic/bash-alias/tree/master/docsrc/)
 and gets built and published to github using
 [@magic/core](https://github.com/magic/core)
