@@ -38,7 +38,7 @@ const expectedCommands = {
   gcbump: "git commit -m 'version: bump' ./package.json ./package-lock.json",
   gcdeps: "git commit -m 'deps: update' ./package.json ./package-lock.json",
   gcdevdeps: "git commit -m 'devdeps: update' ./package.json ./package-lock.json",
-  gcdocs: "git commit -m 'docs: update' ./docs",
+  gcdocs: "git add ./docs && git commit -m 'docs: update'",
   gclog: "git commit -m 'readme: update changelog' ./README.md",
   gcread: "git commit -m 'readme: update' ./README.md",
 

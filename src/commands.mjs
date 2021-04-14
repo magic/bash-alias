@@ -24,7 +24,7 @@ export const gt = 'git tag'
 export const gcbump = "git commit -m 'version: bump' ./package.json ./package-lock.json"
 export const gcdeps = "git commit -m 'deps: update' ./package.json ./package-lock.json"
 export const gcdevdeps = "git commit -m 'devdeps: update' ./package.json ./package-lock.json"
-export const gcdocs = "git commit -m 'docs: update' ./docs"
+export const gcdocs = "git add ./docs && git commit -m 'docs: update'"
 export const gclog = "git commit -m 'readme: update changelog' ./README.md"
 export const gcread = "git commit -m 'readme: update' ./README.md"
 
