@@ -6,6 +6,7 @@
   "license": "AGPL-3.0",
   "homepage": "https://magic.github.io/bash-alias",
   "main": "src/index.mjs",
+  "type": "module",
   "bin": {
     "l": "src/bin.mjs",
     "la": "src/bin.mjs",
@@ -83,9 +84,9 @@
     "@magic-modules/no-spy": "0.0.6",
     "@magic-modules/pre": "0.0.10",
     "@magic-themes/docs": "0.0.13",
-    "@magic/core": "0.0.114",
-    "@magic/format": "0.0.22",
-    "@magic/test": "0.1.65"
+    "@magic/core": "0.0.125",
+    "@magic/format": "0.0.24",
+    "@magic/test": "0.1.70"
   },
   "files": [
     "src"
