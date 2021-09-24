@@ -37,6 +37,7 @@ export const np = 'npm run prod'
 export const ns = 'npm start'
 export const nt = 'npm test'
 export const nu = 'npm update'
+export const nr = 'npm run'
 
 // @magic
 export const m = 'magic dev'
