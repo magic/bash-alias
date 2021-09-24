@@ -37,6 +37,7 @@
     "nf": "src/bin.mjs",
     "ni": "src/bin.mjs",
     "np": "src/bin.mjs",
+    "nr": "src/bin.mjs",
     "ns": "src/bin.mjs",
     "nt": "src/bin.mjs",
     "nu": "src/bin.mjs",
