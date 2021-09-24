@@ -122,7 +122,10 @@ gcdocs: "git add docs" before comitting
 
 ##### 0.0.8
 * update dependencies
-* add nr -> npm run
+* add nr -> npm run, but do not alias it yet -.-
 
-##### 0.0.9 - unreleased
+##### 0.0.9
+actually add the nr bin alias to package.json
+
+##### 0.0.10
 ...
