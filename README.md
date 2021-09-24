@@ -120,5 +120,9 @@ bump required node version to 14.2.0
 ##### 0.0.7
 gcdocs: "git add docs" before comitting
 
-##### 0.0.8 - unreleased
+##### 0.0.8
+* update dependencies
+* add nr -> npm run
+
+##### 0.0.9 - unreleased
 ...
