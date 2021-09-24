@@ -51,6 +51,7 @@ strings in [] are expected or optional cli arguments
 `nf  -> npm run format`
 `ni  -> npm install`
 `np  -> npm run prod`
+`nr  -> npm run`
 `ns  -> npm start`
 `nt  -> npm test`
 `nu  -> npm update`
