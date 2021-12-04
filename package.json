@@ -85,9 +85,9 @@
     "@magic-modules/no-spy": "0.0.6",
     "@magic-modules/pre": "0.0.11",
     "@magic-themes/docs": "0.0.14",
-    "@magic/core": "0.0.130",
-    "@magic/format": "0.0.30",
-    "@magic/test": "0.1.75"
+    "@magic/core": "0.0.132",
+    "@magic/format": "0.0.32",
+    "@magic/test": "0.1.76"
   },
   "files": [
     "src"
