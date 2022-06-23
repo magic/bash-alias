@@ -128,4 +128,7 @@ gcdocs: "git add docs" before comitting
 actually add the nr bin alias to package.json
 
 ##### 0.0.10
+update dependencies
+
+##### 0.0.11
 ...
