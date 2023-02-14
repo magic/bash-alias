@@ -4,14 +4,14 @@ installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
 
 **POLLUTES THE NAMESPACE OF YOUR BASH WITH ONE AND TWO LETTER COMMANDS.**
 
-*fortunately, the rest of the linux ecosystem seems to be smart enough not to do that too often.*
+_fortunately, the rest of the linux ecosystem seems to be smart enough not to do that too often._
 
 <GitBadges>@magic/bash-alias</GitBadges>
 
 ## known name clashes:
 
-* gs = [ghostscript](https://en.wikipedia.org/wiki/Ghostscript).
-* ll, la, l: exist on some operating systems. should be no change in behaviour though.
+- gs = [ghostscript](https://en.wikipedia.org/wiki/Ghostscript).
+- ll, la, l: exist on some operating systems. should be no change in behaviour though.
 
 ### install
 
@@ -22,6 +22,7 @@ installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
 strings in [] are expected or optional cli arguments
 
 #### #aliases-dir directory listings
+
 `l  -> ls -CF [...FILE_GLOB]`
 `la -> ls -A [...FILE_GLOB]`
 `ll -> ls -alF [...FILE_GLOB]`
@@ -75,7 +76,6 @@ strings in [] are expected or optional cli arguments
 `ct  -> cargo test`
 `cw  -> cargo watch`
 `cwr -> cargo watch -x run`
-
 
 ## source
 
