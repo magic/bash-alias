@@ -1,4 +1,4 @@
-# @magic/git-alias
+# @magic/bash-alias
 
 installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
 
