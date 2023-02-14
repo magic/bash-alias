@@ -82,12 +82,12 @@
   "devDependencies": {
     "@magic-modules/git-badges": "0.0.12",
     "@magic-modules/light-switch": "0.0.11",
-    "@magic-modules/no-spy": "0.0.7",
+    "@magic-modules/no-spy": "0.0.8",
     "@magic-modules/pre": "0.0.11",
     "@magic-themes/docs": "0.0.14",
-    "@magic/core": "0.0.143",
-    "@magic/format": "0.0.42",
-    "@magic/test": "0.2.13"
+    "@magic/core": "0.0.149",
+    "@magic/format": "0.0.50",
+    "@magic/test": "0.2.15"
   },
   "files": [
     "src"
