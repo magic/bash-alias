@@ -4,13 +4,15 @@ installs useful git, node, rust, and [@magic](https://magic.github.io) aliases.
 
 **POLLUTES THE NAMESPACE OF YOUR BASH WITH ONE AND TWO LETTER COMMANDS.**
 
-*fortunately, the rest of the linux ecosystem seems to be smart enough not to do that too often.*
+_fortunately, the rest of the linux ecosystem seems to be smart enough not to do that too often._
 
 ## known name clashes:
-* gs = [ghostscript](https://en.wikipedia.org/wiki/Ghostscript).
-* ll, la, l: exist on some operating systems. should be no change in behaviour though.
+
+- gs = [ghostscript](https://en.wikipedia.org/wiki/Ghostscript).
+- ll, la, l: exist on some operating systems. should be no change in behaviour though.
 
 ## installation
+
 ```bash
 npm i -g @magic/bash-aliases
 ```
@@ -20,6 +22,7 @@ npm i -g @magic/bash-aliases
 strings in ${} are expected cli arguments
 
 ### ls
+
 ```bash
 ll -> ls -alF --color
 la -> ls -A --color
@@ -27,6 +30,7 @@ l  -> ls -CF --color
 ```
 
 ### git
+
 ```bash
 ga   -> git add ${...files}
 gaa  -> git add --all
@@ -97,38 +101,54 @@ cwr -> cargo watch -x run
 ### changelog
 
 #### 0.0.1
+
 first release
 
 #### 0.0.2
+
 add colors to directory listings.
 
 #### 0.0.3
-* update git commit messages
-* fix docs
+
+- update git commit messages
+- fix docs
 
 #### 0.0.4
-* rename cc to cch to prevent name clash.
-* add gt => git tag -a $1 -m $1
+
+- rename cc to cch to prevent name clash.
+- add gt => git tag -a $1 -m $1
 
 #### 0.0.5
+
 bump required node version to 14.2.0
 
 #### 0.0.6
-* bump required node version to 14.15.4
-* update dependencies
+
+- bump required node version to 14.15.4
+- update dependencies
 
 ##### 0.0.7
+
 gcdocs: "git add docs" before comitting
 
 ##### 0.0.8
-* update dependencies
-* add nr -> npm run, but do not alias it yet -.-
+
+- update dependencies
+- add nr -> npm run, but do not alias it yet -.-
 
 ##### 0.0.9
+
 actually add the nr bin alias to package.json
 
 ##### 0.0.10
+
 update dependencies
 
 ##### 0.0.11
+
+- rename package in readme header
+- update dev dependencies
+
+##### 0.0.12 - unreleased
+
 ...
