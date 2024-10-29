@@ -77,7 +77,6 @@ strings in [] are expected or optional cli arguments
 `cw  -> cargo watch`
 `cwr -> cargo watch -x run`
 
-
 ### git commit shortcuts
 
 ```bash
