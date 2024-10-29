@@ -27,6 +27,7 @@ export const gcdevdeps = "git commit -m 'devdeps: update' ./package.json ./packa
 export const gcdocs = "git add ./docs && git commit -m 'docs: update'"
 export const gclog = "git commit -m 'readme: update changelog' ./README.md"
 export const gcread = "git commit -m 'readme: update' ./README.md"
+export const gcdist = "git commit -m 'dist: update' dist"
 
 // node
 export const nb = 'npm run build'
