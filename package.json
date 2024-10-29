@@ -29,6 +29,7 @@
     "gcbump": "src/bin.mjs",
     "gcdeps": "src/bin.mjs",
     "gcdevdeps": "src/bin.mjs",
+    "gcdist": "src/bin.mjs",
     "gcdocs": "src/bin.mjs",
     "gclog": "src/bin.mjs",
     "gcread": "src/bin.mjs",
