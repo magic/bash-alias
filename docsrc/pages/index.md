@@ -81,13 +81,13 @@ strings in [] are expected or optional cli arguments
 ### git commit shortcuts
 
 ```bash
-gcdocs    -> git commit -m 'docs: update' ./docs"
-gcdist    -> git commit -m 'dist: update' ./dist"
+gcbump    -> git commit -m 'version: bump' ./package.json ./package-lock.json"
 gcdeps    -> git commit -m 'deps: update' ./package.json ./package-lock.json"
 gcdevdeps -> git commit -m 'devdeps: update ' ./package.json ./package-lock.json"
+gcdist    -> git commit -m 'dist: update' ./dist"
+gcdocs    -> git commit -m 'docs: update' ./docs"
 gclog     -> git commit -m 'readme: update changelog' ./README.md"
 gcread    -> git commit -m 'readme: update' ./README.md"
-gcbump    -> git commit -m 'version: bump' ./package.json ./package-lock.json"
 ```
 
 ## source
