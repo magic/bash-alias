@@ -150,6 +150,15 @@ update dependencies
 - rename package in readme header
 - update dev dependencies
 
-##### 0.0.12 - unreleased
+##### 0.0.12
+
+- add gcdist command, add nr command
+
+##### 0.0.13
+
+- update changelog
+- update devDependencies
+
+##### 0.0.14 - unreleased
 
 ...
