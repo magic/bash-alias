@@ -53,6 +53,7 @@ gt   -> git tag -a '...ARGV' -m '...ARGV'
 
 ```bash
 gcdocs    -> git commit -m 'docs: update' ./docs"
+gcdist    -> git commit -m 'dist: update' ./dist"
 gcdeps    -> git commit -m 'deps: update' ./package.json ./package-lock.json"
 gcdevdeps -> git commit -m 'devdeps: update ' ./package.json ./package-lock.json"
 gclog     -> git commit -m 'readme: update changelog' ./README.md"

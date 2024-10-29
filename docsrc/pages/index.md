@@ -77,6 +77,19 @@ strings in [] are expected or optional cli arguments
 `cw  -> cargo watch`
 `cwr -> cargo watch -x run`
 
+
+### git commit shortcuts
+
+```bash
+gcdocs    -> git commit -m 'docs: update' ./docs"
+gcdist    -> git commit -m 'dist: update' ./dist"
+gcdeps    -> git commit -m 'deps: update' ./package.json ./package-lock.json"
+gcdevdeps -> git commit -m 'devdeps: update ' ./package.json ./package-lock.json"
+gclog     -> git commit -m 'readme: update changelog' ./README.md"
+gcread    -> git commit -m 'readme: update' ./README.md"
+gcbump    -> git commit -m 'version: bump' ./package.json ./package-lock.json"
+```
+
 ## source
 
 the source for this page is in the
